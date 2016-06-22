@@ -55,6 +55,12 @@ paragraphs[9] ="Near the more well-known Crete, Gavdos is the most southern isla
          paragraphElements[index].innerHTML = paragraphs[index];
         }
     }
+     /**
+    * This function provides JavaScript code for the Contact page
+    * 
+    * @function Contact
+    * @returns {void}
+    */
 //Event Listner to submit button
 document.getElementById("sendButton").addEventListener("click", function(event){
     event.preventDefault(); //preventing default action of submit button
@@ -71,17 +77,17 @@ var contactNumber = document.getElementById("contactNumber").value
 var email =  document.getElementById("email").value
 
 var yourMessage =  document.getElementById("yourMessage").value
-console.log("++++++++++++++++++++++++++++");
-console.log("firstName = " + firstName);
-console.log("==========================");
-console.log("lastName = " +  lastName);
-console.log("++++++++++++++++++++++++++++");
-console.log("contactNumber = " + contactNumber);
-console.log("==========================");
-console.log("email = " + email);
-console.log("+++++++++++++++++++++++++++");
-console.log(" yourMessage = " +  yourMessage);
-console.log("==========================");
+console.log("+++++++++++++++++++++++++++++++");
+console.log("   firstName = " + firstName);
+console.log("===============================");
+console.log("   lastName = " +  lastName);
+console.log("+++++++++++++++++++++++++++++++");
+console.log("   contactNumber = " + contactNumber);
+console.log("===============================");
+console.log("   email = " + email);
+console.log("+++++++++++++++++++++++++++++++");
+console.log("   yourMessage = " +  yourMessage);
+console.log("===============================");
 
 }
 
